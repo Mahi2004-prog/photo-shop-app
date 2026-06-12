@@ -17,11 +17,11 @@ const FilterControls: React.FC<FilterControlsProps> = ({
 }) => {
   return (
     <div className="filter-controls">
-      <h2>Edit Filters</h2>
+      <h2>✨ Edit Filters</h2>
 
       <div className="control-group">
         <Slider
-          label="Brightness"
+          label="🔆 Brightness"
           value={filters.brightness}
           min={0}
           max={200}
@@ -31,7 +31,7 @@ const FilterControls: React.FC<FilterControlsProps> = ({
 
       <div className="control-group">
         <Slider
-          label="Contrast"
+          label="◐ Contrast"
           value={filters.contrast}
           min={0}
           max={200}
@@ -41,7 +41,7 @@ const FilterControls: React.FC<FilterControlsProps> = ({
 
       <div className="control-group">
         <Slider
-          label="Saturation"
+          label="🎨 Saturation"
           value={filters.saturation}
           min={0}
           max={200}
@@ -51,7 +51,7 @@ const FilterControls: React.FC<FilterControlsProps> = ({
 
       <div className="control-group">
         <Slider
-          label="Blur"
+          label="💨 Blur"
           value={filters.blur}
           min={0}
           max={20}
@@ -61,7 +61,7 @@ const FilterControls: React.FC<FilterControlsProps> = ({
 
       <div className="control-group">
         <Slider
-          label="Hue Rotate"
+          label="🌈 Hue Rotate"
           value={filters.hue}
           min={0}
           max={360}
@@ -71,7 +71,7 @@ const FilterControls: React.FC<FilterControlsProps> = ({
 
       <div className="control-group">
         <Slider
-          label="Grayscale"
+          label="⚫ Grayscale"
           value={filters.grayscale}
           min={0}
           max={100}
